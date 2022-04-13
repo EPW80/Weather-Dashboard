@@ -1,21 +1,44 @@
-ion-icon {
-  color: whitesmoke;
-  --ionicon-stroke-width: 80px;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
-.green {
-  background-color: green;
-}
-.yellow {
-  background-color: yellow;
-}
-.orange {
-  background-color: orange;
-}
-.red {
-  background-color: red;
+.heading {
+  background-color: #3c3c3c;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
 }
 
-.purple {
-  background-color: purple;
+input {
+  width: 75%;
+}
+
+#city-list {
+  width: 22rem;
+}
+
+#city-date-icon,
+#city-name,
+#current-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center/space-around/space-between;
+}
+
+h6 {
+  font-weight: bold;
+}
+
+h4 {
+  margin: 5px;
+}
+
+#forecast-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center/space-between;
+}
+
+.forecast {
+  margin: 10px;
 }
