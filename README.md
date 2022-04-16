@@ -9,7 +9,7 @@
 * JavaScript
 
 ## Website
-git@github.com:EPW80/Weather-Dashboard.git
+https://github.com/EPW80/Weather-Dashboard.git
 
 
 ## Deployment
