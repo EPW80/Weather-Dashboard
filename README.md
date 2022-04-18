@@ -16,7 +16,7 @@ https://github.com/EPW80/Weather-Dashboard.git
 
 
 ## Deployment
-https://github.com/EPW80/Weather-Dashboard/deployments/activity_log?environment=github-pages
+https://epw80.github.io/Weather-Dashboard/
 
 ## Mock-up
 
