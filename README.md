@@ -1,6 +1,9 @@
 # Weather Dashboard
 
 ## Purpose
+A simple weather application that allows users to search for a city to get the current weather and 5 day forecast. 
+Cities that users previously looked up will be stored in their local storage. The overall purpose of this application
+is to utilize the knowledge we have attained during this first two months of UCLA coding bootcamp
 
 
 ## Built With
