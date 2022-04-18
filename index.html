@@ -1,37 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- declare document type-->
+<html lang="en"> <!-- language type-->
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Weather Dashboard</title>
+    <meta charset="UTF-8" /> <!--  tells the browser to use the utf-8 character encoding when translating machine code into human-readable text and vice versa to be displayed in the browser.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--  gives the browser instructions on how to control the page's dimensions and scaling.-->
+    <title>Weather Dashboard</title> <!-- allows web page to have title -->
+    <!-- styles link -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <!-- linking bootstrap, font and my stylesheet -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <script
       src="https://kit.fontawesome.com/70fcd40144.js"
       crossorigin="anonymous"
     ></script>
   </head>
-
+    
+  <!-- ajax/cloudflare links -->
   <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 
+    <!-- container for introductory content -->
     <header>
       <div class="heading">
         <div>
-          <h1>Weather Dashboard</h1>
+          <h1>Weather Dashboard</h1> <!-- header title -->
         </div>
       </div>
     </header>
 
+    <!-- break -->
     <br />
-
+    <!-- forecast container -->
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3 pl-2">
@@ -42,6 +46,7 @@
                 <div class="form-group">
                   <input type="text" class="form-control" id="city-input" />
                 </div>
+                <!-- user button -->
                 <button
                   id="search-button"
                   type="submit"
@@ -52,6 +57,7 @@
               </form>
             </div>
           </div>
+          <!---->
           <div>
             <ul id="city-list" class="list-group"></ul>
           </div>
@@ -71,9 +77,10 @@
           </div>
           <div class="row">
             <div id="forecast-weather" class="col-md-9">
-              <h4>5-Day Forecast:</h4>
+              <h4>5-Day Forecast:</h4> <!-- presentation -->
               <div id="forecast-cards">
                 <div class="card forecast">
+                  <!-- day 1 forecast -->
                   <div id="forecast1" class="card-body">
                     <span class="card-title" id="forecast-date1"> </span>
                     <span id="forecast-icon1"></span>
@@ -81,6 +88,7 @@
                     <p class="card-text" id="forecast-humidity1"></p>
                   </div>
                 </div>
+                <!-- day 2 forecast -->
                 <div class="card forecast">
                   <div id="forecast2" class="card-body">
                     <span class="card-title" id="forecast-date2"> </span>
@@ -89,6 +97,7 @@
                     <p class="card-text" id="forecast-humidity2"></p>
                   </div>
                 </div>
+                <!-- day 3 forecast -->
                 <div class="card forecast">
                   <div id="forecast3" class="card-body">
                     <span class="card-title" id="forecast-date3"> </span>
@@ -97,6 +106,7 @@
                     <p class="card-text" id="forecast-humidity3"></p>
                   </div>
                 </div>
+                <!-- day 4 forecast -->
                 <div class="card forecast">
                   <div id="forecast4" class="card-body">
                     <span class="card-title" id="forecast-date4"> </span>
@@ -105,6 +115,7 @@
                     <p class="card-text" id="forecast-humidity4"></p>
                   </div>
                 </div>
+                <!-- day 5 forecast -->
                 <div class="card forecast">
                   <div id="forecast5" class="card-body">
                     <span class="card-title" id="forecast-date5"> </span>
@@ -119,12 +130,13 @@
         </div>
       </div>
     </div>
-
+    <!-- bootstrap link-->
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <!-- JS links including moment.js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
     <script src="./assets/js/script.js"></script>
   </body>

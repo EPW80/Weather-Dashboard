@@ -133,7 +133,7 @@ function populateCityWeather(city, citySearchList) {
             $("#forecast-humidity" + forecastPosition).text(
               "Humidity: " + forecast.list[i].main.humidity + "%"
             );
-
+            // card styling
             $(".forecast").attr(
               "style",
               "background-color:dodgerblue; color:white"
@@ -163,7 +163,7 @@ $(document).ready(function () {
     var city = $("#city-input").val().trim().toLowerCase();
 
     if (city != "") {
-      //Check to see if there is any text entered
+      //Check for input entered
 
       citySearchList[city] = true;
       localStorage.setItem("citySearchList", JSON.stringify(citySearchList));

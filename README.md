@@ -25,6 +25,11 @@ https://epw80.github.io/Weather-Dashboard/
 
 ## Challenges 
 The challenge I faced was getting the API to respond to a user click. I fixed that situation after extensive research into API's
+provided by the program. Some resources that helped me were:
+</ br>
+https://github.com/public-apis/public-apis
+</ br>
+https://apipheny.io/free-api/#apis-without-key
 
 
 ## Contribution:
